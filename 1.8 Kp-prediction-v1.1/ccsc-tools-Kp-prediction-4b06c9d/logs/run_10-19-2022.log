@@ -1,0 +1,420 @@
+
+Test default models for Kp forecasting for 1-9 hours ahead.
+Running testing for h = 4 hour ahead
+[2022-10-19 23:08:49] Loading from train file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_train.csv 
+[2022-10-19 23:08:49] Loading from test  file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_test.csv 
+[2022-10-19 23:08:49] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-10-19 23:08:49] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-10-19 23:08:49] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2022-10-19 23:08:49] size of test: 2126 2126 2126 
+[2022-10-19 23:08:49] y_test max , min: 63 0 
+[2022-10-19 23:08:49] Loading the model and its weights. 
+[2022-10-19 23:08:52] Loading weights from model dir: default_models\4h 
+1/1 [==============================] - ETA: 0s1/1 [==============================] - 1s 1s/step
+
+Uncertainty Quantification
+  1/100  [===== Uncertainty Quantification ======]  -    1/100 %
+  2/100  [===== Uncertainty Quantification ======]  -    2/100 %
+  3/100  [===== Uncertainty Quantification ======]  -    3/100 %
+  4/100  [===== Uncertainty Quantification ======]  -    4/100 %
+  5/100  [===== Uncertainty Quantification ======]  -    5/100 %
+  6/100  [===== Uncertainty Quantification ======]  -    6/100 %
+  7/100  [===== Uncertainty Quantification ======]  -    7/100 %
+  8/100  [===== Uncertainty Quantification ======]  -    8/100 %
+  9/100  [===== Uncertainty Quantification ======]  -    9/100 %
+ 10/100  [===== Uncertainty Quantification ======]  -   10/100 %
+ 11/100  [===== Uncertainty Quantification ======]  -   11/100 %
+ 12/100  [===== Uncertainty Quantification ======]  -   12/100 %
+ 13/100  [===== Uncertainty Quantification ======]  -   13/100 %
+ 14/100  [===== Uncertainty Quantification ======]  -   14/100 %
+ 15/100  [===== Uncertainty Quantification ======]  -   15/100 %
+ 16/100  [===== Uncertainty Quantification ======]  -   16/100 %
+ 17/100  [===== Uncertainty Quantification ======]  -   17/100 %
+ 18/100  [===== Uncertainty Quantification ======]  -   18/100 %
+ 19/100  [===== Uncertainty Quantification ======]  -   19/100 %
+ 20/100  [===== Uncertainty Quantification ======]  -   20/100 %
+ 21/100  [===== Uncertainty Quantification ======]  -   21/100 %
+ 22/100  [===== Uncertainty Quantification ======]  -   22/100 %
+ 23/100  [===== Uncertainty Quantification ======]  -   23/100 %
+ 24/100  [===== Uncertainty Quantification ======]  -   24/100 %
+ 25/100  [===== Uncertainty Quantification ======]  -   25/100 %
+ 26/100  [===== Uncertainty Quantification ======]  -   26/100 %
+ 27/100  [===== Uncertainty Quantification ======]  -   27/100 %
+ 28/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 29/100  [===== Uncertainty Quantification ======]  -   28/100 %
+ 30/100  [===== Uncertainty Quantification ======]  -   30/100 %
+ 31/100  [===== Uncertainty Quantification ======]  -   31/100 %
+ 32/100  [===== Uncertainty Quantification ======]  -   32/100 %
+ 33/100  [===== Uncertainty Quantification ======]  -   33/100 %
+ 34/100  [===== Uncertainty Quantification ======]  -   34/100 %
+ 35/100  [===== Uncertainty Quantification ======]  -   35/100 %
+ 36/100  [===== Uncertainty Quantification ======]  -   36/100 %
+ 37/100  [===== Uncertainty Quantification ======]  -   37/100 %
+ 38/100  [===== Uncertainty Quantification ======]  -   38/100 %
+ 39/100  [===== Uncertainty Quantification ======]  -   39/100 %
+ 40/100  [===== Uncertainty Quantification ======]  -   40/100 %
+ 41/100  [===== Uncertainty Quantification ======]  -   41/100 %
+ 42/100  [===== Uncertainty Quantification ======]  -   42/100 %
+ 43/100  [===== Uncertainty Quantification ======]  -   43/100 %
+ 44/100  [===== Uncertainty Quantification ======]  -   44/100 %
+ 45/100  [===== Uncertainty Quantification ======]  -   45/100 %
+ 46/100  [===== Uncertainty Quantification ======]  -   46/100 %
+ 47/100  [===== Uncertainty Quantification ======]  -   47/100 %
+ 48/100  [===== Uncertainty Quantification ======]  -   48/100 %
+ 49/100  [===== Uncertainty Quantification ======]  -   49/100 %
+ 50/100  [===== Uncertainty Quantification ======]  -   50/100 %
+ 51/100  [===== Uncertainty Quantification ======]  -   51/100 %
+ 52/100  [===== Uncertainty Quantification ======]  -   52/100 %
+ 53/100  [===== Uncertainty Quantification ======]  -   53/100 %
+ 54/100  [===== Uncertainty Quantification ======]  -   54/100 %
+ 55/100  [===== Uncertainty Quantification ======]  -   55/100 %
+ 56/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 57/100  [===== Uncertainty Quantification ======]  -   56/100 %
+ 58/100  [===== Uncertainty Quantification ======]  -   57/100 %
+ 59/100  [===== Uncertainty Quantification ======]  -   59/100 %
+ 60/100  [===== Uncertainty Quantification ======]  -   60/100 %
+ 61/100  [===== Uncertainty Quantification ======]  -   61/100 %
+ 62/100  [===== Uncertainty Quantification ======]  -   62/100 %
+ 63/100  [===== Uncertainty Quantification ======]  -   63/100 %
+ 64/100  [===== Uncertainty Quantification ======]  -   64/100 %
+ 65/100  [===== Uncertainty Quantification ======]  -   65/100 %
+ 66/100  [===== Uncertainty Quantification ======]  -   66/100 %
+ 67/100  [===== Uncertainty Quantification ======]  -   67/100 %
+ 68/100  [===== Uncertainty Quantification ======]  -   68/100 %
+ 69/100  [===== Uncertainty Quantification ======]  -   69/100 %
+ 70/100  [===== Uncertainty Quantification ======]  -   70/100 %
+ 71/100  [===== Uncertainty Quantification ======]  -   71/100 %
+ 72/100  [===== Uncertainty Quantification ======]  -   72/100 %
+ 73/100  [===== Uncertainty Quantification ======]  -   73/100 %
+ 74/100  [===== Uncertainty Quantification ======]  -   74/100 %
+ 75/100  [===== Uncertainty Quantification ======]  -   75/100 %
+ 76/100  [===== Uncertainty Quantification ======]  -   76/100 %
+ 77/100  [===== Uncertainty Quantification ======]  -   77/100 %
+ 78/100  [===== Uncertainty Quantification ======]  -   78/100 %
+ 79/100  [===== Uncertainty Quantification ======]  -   79/100 %
+ 80/100  [===== Uncertainty Quantification ======]  -   80/100 %
+ 81/100  [===== Uncertainty Quantification ======]  -   81/100 %
+ 82/100  [===== Uncertainty Quantification ======]  -   82/100 %
+ 83/100  [===== Uncertainty Quantification ======]  -   83/100 %
+ 84/100  [===== Uncertainty Quantification ======]  -   84/100 %
+ 85/100  [===== Uncertainty Quantification ======]  -   85/100 %
+ 86/100  [===== Uncertainty Quantification ======]  -   86/100 %
+ 87/100  [===== Uncertainty Quantification ======]  -   87/100 %
+ 88/100  [===== Uncertainty Quantification ======]  -   88/100 %
+ 89/100  [===== Uncertainty Quantification ======]  -   89/100 %
+ 90/100  [===== Uncertainty Quantification ======]  -   90/100 %
+ 91/100  [===== Uncertainty Quantification ======]  -   91/100 %
+ 92/100  [===== Uncertainty Quantification ======]  -   92/100 %
+ 93/100  [===== Uncertainty Quantification ======]  -   93/100 %
+ 94/100  [===== Uncertainty Quantification ======]  -   94/100 %
+ 95/100  [===== Uncertainty Quantification ======]  -   95/100 %
+ 96/100  [===== Uncertainty Quantification ======]  -   96/100 %
+ 97/100  [===== Uncertainty Quantification ======]  -   97/100 %
+ 98/100  [===== Uncertainty Quantification ======]  -   98/100 %
+ 99/100  [===== Uncertainty Quantification ======]  -   99/100 %
+100/100  [===== Uncertainty Quantification ======]  -  100/100 %
+[2022-10-19 23:09:25] Saving results... 
+[2022-10-19 23:09:25] [2022-10-19 23:09:25] Saving the result to: Saving the result to: results\kp_4h_results.csv results\kp_4h_results.csv 
+
+[2022-10-19 23:09:25] Saving figure to file: figures\kp_4h_epistemic.png 
+[2022-10-19 23:09:25] Saving figure to file: figures\kp_4h_aleatoric.png 
+show_figures: False
+Plotting figures for default models results for Kp forecasting for 1-9 hours ahead.
+Graphing results for h = 1 hour ahead
+[2022-10-19 23:10:04] Saving figure to file: default_figures\kp_1h_epistemic.png 
+[2022-10-19 23:10:04] Saving figure to file: default_figures\kp_1h_aleatoric.png 
+Graphing results for h = 2 hour ahead
+[2022-10-19 23:10:04] Saving figure to file: default_figures\kp_2h_epistemic.png 
+[2022-10-19 23:10:04] Saving figure to file: default_figures\kp_2h_aleatoric.png 
+Graphing results for h = 3 hour ahead
+[2022-10-19 23:10:04] Saving figure to file: default_figures\kp_3h_epistemic.png 
+[2022-10-19 23:10:04] Saving figure to file: default_figures\kp_3h_aleatoric.png 
+Graphing results for h = 4 hour ahead
+[2022-10-19 23:10:04] Saving figure to file: default_figures\kp_4h_epistemic.png 
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_4h_aleatoric.png 
+Graphing results for h = 5 hour ahead
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_5h_epistemic.png 
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_5h_aleatoric.png 
+Graphing results for h = 6 hour ahead
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_6h_epistemic.png 
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_6h_aleatoric.png 
+Graphing results for h = 7 hour ahead
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_7h_epistemic.png 
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_7h_aleatoric.png 
+Graphing results for h = 8 hour ahead
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_8h_epistemic.png 
+[2022-10-19 23:10:05] Saving figure to file: default_figures\kp_8h_aleatoric.png 
+Graphing results for h = 9 hour ahead
+[2022-10-19 23:10:06] Saving figure to file: default_figures\kp_9h_epistemic.png 
+[2022-10-19 23:10:06] Saving figure to file: default_figures\kp_9h_aleatoric.png 
+[2022-10-19 23:10:06] show_figures: True 
+Loading the train_model function...
+Train custom model for h=4
+Running training for h = 4 hour ahead
+[2022-10-19 23:10:12] Loading from train file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_train.csv 
+[2022-10-19 23:10:12] Loading from test  file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_test.csv 
+[2022-10-19 23:10:12] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-10-19 23:10:12] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-10-19 23:10:12] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+Epoch 1/100
+204/204 - 17s - loss: 47581.4062 - mse: 389.9273 - 17s/epoch - 84ms/step
+Epoch 2/100
+204/204 - 11s - loss: 40269.2227 - mse: 380.9585 - 11s/epoch - 54ms/step
+Epoch 3/100
+204/204 - 11s - loss: 33948.6055 - mse: 314.5258 - 11s/epoch - 54ms/step
+Epoch 4/100
+204/204 - 11s - loss: 28544.4414 - mse: 273.9455 - 11s/epoch - 56ms/step
+Epoch 5/100
+204/204 - 11s - loss: 23917.4141 - mse: 256.3920 - 11s/epoch - 55ms/step
+Epoch 6/100
+204/204 - 12s - loss: 19947.0098 - mse: 248.3235 - 12s/epoch - 58ms/step
+Epoch 7/100
+204/204 - 12s - loss: 16511.6562 - mse: 238.7656 - 12s/epoch - 57ms/step
+Epoch 8/100
+204/204 - 12s - loss: 13565.6719 - mse: 231.5398 - 12s/epoch - 57ms/step
+Epoch 9/100
+204/204 - 12s - loss: 11051.7949 - mse: 226.3172 - 12s/epoch - 57ms/step
+Epoch 10/100
+204/204 - 12s - loss: 8917.0547 - mse: 223.1384 - 12s/epoch - 58ms/step
+Epoch 11/100
+204/204 - 12s - loss: 7118.0479 - mse: 219.3856 - 12s/epoch - 60ms/step
+Epoch 12/100
+204/204 - 12s - loss: 5618.7310 - mse: 216.9432 - 12s/epoch - 58ms/step
+Epoch 13/100
+204/204 - 12s - loss: 4379.8354 - mse: 213.9106 - 12s/epoch - 59ms/step
+Epoch 14/100
+204/204 - 12s - loss: 3369.3870 - mse: 211.8177 - 12s/epoch - 60ms/step
+Epoch 15/100
+204/204 - 12s - loss: 2558.0139 - mse: 210.0366 - 12s/epoch - 61ms/step
+Epoch 16/100
+204/204 - 12s - loss: 1916.3181 - mse: 208.0840 - 12s/epoch - 60ms/step
+Epoch 17/100
+204/204 - 12s - loss: 1417.9998 - mse: 205.1974 - 12s/epoch - 59ms/step
+Epoch 18/100
+204/204 - 12s - loss: 1044.6959 - mse: 206.6311 - 12s/epoch - 59ms/step
+Epoch 19/100
+204/204 - 13s - loss: 764.7140 - mse: 202.8280 - 13s/epoch - 63ms/step
+Epoch 20/100
+204/204 - 13s - loss: 567.3160 - mse: 203.1651 - 13s/epoch - 65ms/step
+Epoch 21/100
+204/204 - 13s - loss: 428.4530 - mse: 201.3290 - 13s/epoch - 65ms/step
+Epoch 22/100
+204/204 - 13s - loss: 335.5519 - mse: 199.6943 - 13s/epoch - 63ms/step
+Epoch 23/100
+204/204 - 13s - loss: 275.9930 - mse: 198.3428 - 13s/epoch - 62ms/step
+Epoch 24/100
+204/204 - 13s - loss: 240.7868 - mse: 198.5970 - 13s/epoch - 65ms/step
+Epoch 25/100
+204/204 - 13s - loss: 219.6158 - mse: 197.8926 - 13s/epoch - 64ms/step
+Epoch 26/100
+204/204 - 13s - loss: 207.6702 - mse: 197.1016 - 13s/epoch - 63ms/step
+Epoch 27/100
+204/204 - 13s - loss: 201.7550 - mse: 196.8895 - 13s/epoch - 66ms/step
+Epoch 28/100
+204/204 - 13s - loss: 198.3860 - mse: 196.2506 - 13s/epoch - 64ms/step
+Epoch 29/100
+204/204 - 14s - loss: 196.7387 - mse: 195.8203 - 14s/epoch - 67ms/step
+Epoch 30/100
+204/204 - 13s - loss: 195.3979 - mse: 194.9902 - 13s/epoch - 65ms/step
+Epoch 31/100
+204/204 - 13s - loss: 194.4570 - mse: 194.2533 - 13s/epoch - 64ms/step
+Epoch 32/100
+204/204 - 13s - loss: 194.4906 - mse: 194.3679 - 13s/epoch - 64ms/step
+Epoch 33/100
+204/204 - 13s - loss: 193.4975 - mse: 193.4084 - 13s/epoch - 66ms/step
+Epoch 34/100
+204/204 - 13s - loss: 193.8042 - mse: 193.7306 - 13s/epoch - 65ms/step
+Epoch 35/100
+204/204 - 13s - loss: 192.4864 - mse: 192.4210 - 13s/epoch - 65ms/step
+Epoch 36/100
+204/204 - 13s - loss: 192.9328 - mse: 192.8722 - 13s/epoch - 65ms/step
+Epoch 37/100
+204/204 - 14s - loss: 193.4235 - mse: 193.3659 - 14s/epoch - 67ms/step
+Epoch 38/100
+204/204 - 13s - loss: 191.7237 - mse: 191.6684 - 13s/epoch - 66ms/step
+Epoch 39/100
+204/204 - 13s - loss: 191.2743 - mse: 191.2206 - 13s/epoch - 66ms/step
+Epoch 40/100
+204/204 - 13s - loss: 190.4809 - mse: 190.4283 - 13s/epoch - 66ms/step
+Epoch 41/100
+204/204 - 14s - loss: 189.7895 - mse: 189.7381 - 14s/epoch - 68ms/step
+Epoch 42/100
+204/204 - 13s - loss: 190.6365 - mse: 190.5859 - 13s/epoch - 65ms/step
+Epoch 43/100
+204/204 - 14s - loss: 189.7994 - mse: 189.7496 - 14s/epoch - 66ms/step
+Epoch 44/100
+204/204 - 14s - loss: 189.8764 - mse: 189.8271 - 14s/epoch - 68ms/step
+Epoch 45/100
+204/204 - 14s - loss: 190.0792 - mse: 190.0305 - 14s/epoch - 67ms/step
+Epoch 46/100
+204/204 - 14s - loss: 189.2846 - mse: 189.2366 - 14s/epoch - 70ms/step
+Epoch 47/100
+204/204 - 14s - loss: 188.7227 - mse: 188.6749 - 14s/epoch - 69ms/step
+Epoch 48/100
+204/204 - 14s - loss: 188.7558 - mse: 188.7085 - 14s/epoch - 70ms/step
+Epoch 49/100
+204/204 - 15s - loss: 189.2042 - mse: 189.1573 - 15s/epoch - 72ms/step
+Epoch 50/100
+204/204 - 15s - loss: 189.3783 - mse: 189.3316 - 15s/epoch - 76ms/step
+Epoch 51/100
+204/204 - 16s - loss: 188.1556 - mse: 188.1093 - 16s/epoch - 76ms/step
+Epoch 52/100
+204/204 - 15s - loss: 187.6293 - mse: 187.5832 - 15s/epoch - 72ms/step
+Epoch 53/100
+204/204 - 14s - loss: 187.5401 - mse: 187.4943 - 14s/epoch - 71ms/step
+Epoch 54/100
+204/204 - 15s - loss: 187.3864 - mse: 187.3407 - 15s/epoch - 73ms/step
+Epoch 55/100
+204/204 - 15s - loss: 186.1446 - mse: 186.0992 - 15s/epoch - 73ms/step
+Epoch 56/100
+204/204 - 15s - loss: 187.1052 - mse: 187.0599 - 15s/epoch - 74ms/step
+Epoch 57/100
+204/204 - 15s - loss: 186.6654 - mse: 186.6203 - 15s/epoch - 74ms/step
+Epoch 58/100
+204/204 - 15s - loss: 186.4201 - mse: 186.3750 - 15s/epoch - 74ms/step
+Epoch 59/100
+204/204 - 15s - loss: 186.0861 - mse: 186.0413 - 15s/epoch - 75ms/step
+Epoch 60/100
+204/204 - 15s - loss: 186.0992 - mse: 186.0544 - 15s/epoch - 75ms/step
+Epoch 61/100
+204/204 - 16s - loss: 186.1071 - mse: 186.0624 - 16s/epoch - 76ms/step
+Epoch 62/100
+204/204 - 15s - loss: 185.2299 - mse: 185.1853 - 15s/epoch - 75ms/step
+Epoch 63/100
+204/204 - 16s - loss: 185.4357 - mse: 185.3913 - 16s/epoch - 78ms/step
+Epoch 64/100
+204/204 - 16s - loss: 184.7782 - mse: 184.7338 - 16s/epoch - 78ms/step
+Epoch 65/100
+204/204 - 16s - loss: 185.2276 - mse: 185.1831 - 16s/epoch - 78ms/step
+Epoch 66/100
+204/204 - 16s - loss: 184.9504 - mse: 184.9062 - 16s/epoch - 78ms/step
+Epoch 67/100
+204/204 - 16s - loss: 184.1781 - mse: 184.1337 - 16s/epoch - 79ms/step
+Epoch 68/100
+204/204 - 18s - loss: 184.2938 - mse: 184.2495 - 18s/epoch - 87ms/step
+Epoch 69/100
+204/204 - 17s - loss: 184.1634 - mse: 184.1191 - 17s/epoch - 83ms/step
+Epoch 70/100
+204/204 - 17s - loss: 184.0983 - mse: 184.0542 - 17s/epoch - 85ms/step
+Epoch 71/100
+204/204 - 18s - loss: 184.1932 - mse: 184.1492 - 18s/epoch - 87ms/step
+Epoch 72/100
+204/204 - 17s - loss: 183.8938 - mse: 183.8497 - 17s/epoch - 85ms/step
+Epoch 73/100
+204/204 - 17s - loss: 183.9769 - mse: 183.9330 - 17s/epoch - 82ms/step
+Epoch 74/100
+204/204 - 17s - loss: 183.5721 - mse: 183.5282 - 17s/epoch - 83ms/step
+Epoch 75/100
+204/204 - 17s - loss: 183.2935 - mse: 183.2497 - 17s/epoch - 86ms/step
+Epoch 76/100
+204/204 - 17s - loss: 183.3317 - mse: 183.2880 - 17s/epoch - 84ms/step
+Epoch 77/100
+204/204 - 17s - loss: 183.2389 - mse: 183.1952 - 17s/epoch - 83ms/step
+Epoch 78/100
+204/204 - 17s - loss: 182.8990 - mse: 182.8554 - 17s/epoch - 83ms/step
+Epoch 79/100
+204/204 - 17s - loss: 182.7716 - mse: 182.7281 - 17s/epoch - 81ms/step
+Epoch 80/100
+204/204 - 17s - loss: 183.5165 - mse: 183.4730 - 17s/epoch - 82ms/step
+Epoch 81/100
+204/204 - 17s - loss: 182.8081 - mse: 182.7646 - 17s/epoch - 82ms/step
+Epoch 82/100
+204/204 - 17s - loss: 182.0477 - mse: 182.0042 - 17s/epoch - 82ms/step
+Epoch 83/100
+204/204 - 17s - loss: 181.8542 - mse: 181.8108 - 17s/epoch - 83ms/step
+Epoch 84/100
+204/204 - 17s - loss: 181.6955 - mse: 181.6523 - 17s/epoch - 83ms/step
+Epoch 85/100
+204/204 - 17s - loss: 181.4751 - mse: 181.4318 - 17s/epoch - 84ms/step
+Epoch 86/100
+204/204 - 17s - loss: 182.5042 - mse: 182.4609 - 17s/epoch - 85ms/step
+Epoch 87/100
+204/204 - 17s - loss: 182.1872 - mse: 182.1440 - 17s/epoch - 85ms/step
+Epoch 88/100
+204/204 - 17s - loss: 181.5218 - mse: 181.4787 - 17s/epoch - 85ms/step
+Epoch 89/100
+204/204 - 18s - loss: 182.0045 - mse: 181.9615 - 18s/epoch - 86ms/step
+Epoch 90/100
+204/204 - 18s - loss: 181.8234 - mse: 181.7803 - 18s/epoch - 88ms/step
+Epoch 91/100
+204/204 - 19s - loss: 180.3915 - mse: 180.3486 - 19s/epoch - 92ms/step
+Epoch 92/100
+204/204 - 18s - loss: 181.0285 - mse: 180.9857 - 18s/epoch - 88ms/step
+Epoch 93/100
+204/204 - 18s - loss: 180.9874 - mse: 180.9445 - 18s/epoch - 89ms/step
+Epoch 94/100
+204/204 - 18s - loss: 180.8562 - mse: 180.8134 - 18s/epoch - 89ms/step
+Epoch 95/100
+204/204 - 18s - loss: 181.1557 - mse: 181.1129 - 18s/epoch - 89ms/step
+Epoch 96/100
+204/204 - 18s - loss: 180.5325 - mse: 180.4898 - 18s/epoch - 90ms/step
+Epoch 97/100
+204/204 - 19s - loss: 180.5252 - mse: 180.4826 - 19s/epoch - 93ms/step
+Epoch 98/100
+204/204 - 19s - loss: 179.9282 - mse: 179.8857 - 19s/epoch - 94ms/step
+Epoch 99/100
+204/204 - 19s - loss: 180.7282 - mse: 180.6857 - 19s/epoch - 93ms/step
+Epoch 100/100
+204/204 - 19s - loss: 180.6731 - mse: 180.6306 - 19s/epoch - 94ms/step
+[2022-10-19 23:35:04] Saving model weights to directory: models\4h 
+Plotting figures for default models results for Kp forecasting for 1-9 hours ahead.
+Graphing results for h = 1 hour ahead
+[2022-10-19 23:43:39] Saving figure to file: default_figures\kp_1h_epistemic.png 
+[2022-10-19 23:43:39] Saving figure to file: default_figures\kp_1h_aleatoric.png 
+Graphing results for h = 2 hour ahead
+[2022-10-19 23:43:39] Saving figure to file: default_figures\kp_2h_epistemic.png 
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_2h_aleatoric.png 
+Graphing results for h = 3 hour ahead
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_3h_epistemic.png 
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_3h_aleatoric.png 
+Graphing results for h = 4 hour ahead
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_4h_epistemic.png 
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_4h_aleatoric.png 
+Graphing results for h = 5 hour ahead
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_5h_epistemic.png 
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_5h_aleatoric.png 
+Graphing results for h = 6 hour ahead
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_6h_epistemic.png 
+[2022-10-19 23:43:40] Saving figure to file: default_figures\kp_6h_aleatoric.png 
+Graphing results for h = 7 hour ahead
+[2022-10-19 23:43:41] Saving figure to file: default_figures\kp_7h_epistemic.png 
+[2022-10-19 23:43:41] Saving figure to file: default_figures\kp_7h_aleatoric.png 
+Graphing results for h = 8 hour ahead
+[2022-10-19 23:43:41] Saving figure to file: default_figures\kp_8h_epistemic.png 
+[2022-10-19 23:43:41] Saving figure to file: default_figures\kp_8h_aleatoric.png 
+Graphing results for h = 9 hour ahead
+[2022-10-19 23:43:41] Saving figure to file: default_figures\kp_9h_epistemic.png 
+[2022-10-19 23:43:41] Saving figure to file: default_figures\kp_9h_aleatoric.png 
+[2022-10-19 23:43:41] show_figures: True 
+Loading the train_model function...
+Train custom model for h=4
+Running training for h = 4 hour ahead
+[2022-10-19 23:43:49] Loading from train file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_train.csv 
+[2022-10-19 23:43:49] Loading from test  file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_test.csv 
+[2022-10-19 23:43:49] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-10-19 23:43:49] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-10-19 23:43:49] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 

@@ -1,0 +1,2 @@
+max_irradiance:1362.2768
+min_irradiance:1357.0238

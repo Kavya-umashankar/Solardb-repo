@@ -1,0 +1,14 @@
+name: binder_env
+channels:
+- defaults
+dependencies:
+- pandas=1.4.1
+- python=3.9.7
+- pip
+- pip:
+  - tensorflow-gpu==2.6.0
+  - tensorboard==2.8.0
+  - numpy==1.19.5
+  - keras==2.6.0
+  - scikit-learn==1.0.1
+  - matplotlib==3.4.3

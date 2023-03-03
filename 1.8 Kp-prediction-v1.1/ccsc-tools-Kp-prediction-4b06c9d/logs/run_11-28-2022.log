@@ -1,0 +1,20 @@
+
+Test default models for Kp forecasting for 1-9 hours ahead.
+Running testing for h = 4 hour ahead
+[2022-11-28 20:56:36] Loading from train file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_train.csv 
+[2022-11-28 20:56:36] Loading from test  file: data\solar-wind-data\4h\solar_wind_parameters_data_4_hourly_test.csv 
+[2022-11-28 20:56:37] all_data.columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-11-28 20:56:37] data columns: Index(['Timestamp', 'YEAR', 'DOY', 'HR', 'ScalarB', 'BX_GSE_GSM', 'BY_GSE',
+       'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature',
+       'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure',
+       'Electric_field', 'Kp_index', 'Kp_German'],
+      dtype='object') 
+[2022-11-28 20:56:37] columns_names: ['ScalarB', 'BX_GSE_GSM', 'BY_GSE', 'BZ_GSE', 'BY_GSM', 'BZ_GSM', 'SW_Plasma_Temperature', 'SW_Proton_Density', 'SW_Plasma_Speed', 'Flow_pressure'] 
+[2022-11-28 20:56:37] size of test: 2126 2126 2126 
+[2022-11-28 20:56:37] y_test max , min: 63 0 
+[2022-11-28 20:56:37] Loading the model and its weights. 
+[2022-11-28 20:56:43] Loading weights from model dir: default_models\4h 
